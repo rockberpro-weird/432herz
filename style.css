@@ -25,13 +25,13 @@ button:hover {
   }
 
   body {
+    /* ponytail: fixed px, never vw/vh - popup sizes to content, so viewport
+       units feed back into the size that defines them and the window shakes */
+    width: 220px;
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5vh;    
-    padding-bottom: 2vh;
-    margin: 5vw;
+    padding: 16px 0 12px;
+    margin: 0 16px;
 }
 
 h1 {
